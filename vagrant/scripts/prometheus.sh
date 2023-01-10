@@ -41,7 +41,6 @@ sudo chown -R prometheus:prometheus /usr/local/bin/promtool
 sudo systemctl daemon-reload
 sudo systemctl start prometheus
 sudo systemctl enable prometheus
-
 }
 
 config_ssh()
